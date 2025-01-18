@@ -1,0 +1,109 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffe6e6;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+                                /*Mas vale que no estes checando el codigo eso no es lindooooo */
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-size: 3em;
+    color: #e63946;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.mensaje {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.gallery-item {
+    text-align: center;
+}
+
+.gallery img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.gallery video {
+    width: 700px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.gallery video:hover {
+    transform: scale(1.05);
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+.gallery-item p {
+    margin-top: 10px;
+    font-size: 1em;
+    color: #555;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-style: italic;
+    color: #e63946;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-style: italic;
+    color: #e63946;
+}
+.youtube-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #FF0000; 
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.youtube-link:hover {
+    background-color: #CC0000; 
+}
+                                /*Si llegaste hasta aca dejame deciste que me tiene muy triste porque solo debias ver la parte linda */
