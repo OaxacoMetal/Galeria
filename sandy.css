@@ -38,27 +38,33 @@ h1 {
     justify-content: center;
     gap: 15px;
     margin-top: 20px;
+    width: 100%; 
 }
+
 
 .gallery-item {
     text-align: center;
 }
 
 .gallery img {
-    width: 300px;
+    width: 100%; 
+    max-width: 300px; 
+    height: auto; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+
+.gallery video {
+    width: 100%; 
+    max-width: 700px; 
     height: auto;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s;
 }
 
-.gallery video {
-    width: 700px;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s;
-}
 
 .gallery video:hover {
     transform: scale(1.05);
